@@ -37,18 +37,40 @@ Pàgina dedicada a recomenar menjar de qualitat
             font-size: 16px;
             color: #555;
         }
-        .opinion {
+        .opiniones {
             width: 100%;
-            text-align: center;
             margin-top: 30px;
-            padding: 20px;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .opiniones h2 {
+            font-size: 24px;
+        }
+        .opiniones textarea {
+            width: 80%;
+            height: 100px;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .opiniones button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #28a745;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
+    <div class="panel">
+        <img src="https://via.placeholder.com/300" alt="Pizza">
+        <h2>Pizza Italiana</h2>
+        <p>Disfruta de una auténtica pizza napolitana con mozzarella y albahaca.</p>
+    </div>
+    
     <div class="panel">
         <img src="https://via.placeholder.com/300" alt="Tacos">
         <h2>Tacos Mexicanos</h2>
@@ -56,32 +78,27 @@ Pàgina dedicada a recomenar menjar de qualitat
     </div>
     
     <div class="panel">
-        <img src="https://via.placeholder.com/300" alt="Sushi">
-        <h2>Sushi Japonés</h2>
-        <p>El sushi de salmón fresco es una excelente opción para una cena ligera.</p>
+        <img src="https://via.placeholder.com/300" alt="Albóndigas">
+        <h2>Albóndigas Caseras</h2>
+        <p>Albóndigas en salsa de tomate, perfectas para acompañar con arroz o pasta.</p>
     </div>
     
     <div class="panel">
-        <img src="https://via.placeholder.com/300" alt="Pizza">
-        <h2>Pizza Italiana</h2>
-        <p>Disfruta de una auténtica pizza napolitana con mozzarella y albahaca.</p>
+        <img src="https://via.placeholder.com/300" alt="Macarrones">
+        <h2>Macarrones con Queso</h2>
+        <p>Un plato clásico con una cremosa salsa de queso cheddar.</p>
     </div>
-
+    
     <div class="panel">
-        <img src="https://via.placeholder.com/300" alt="Hamburguesa">
-        <h2>Hamburguesa Americana</h2>
-        <p>Una jugosa hamburguesa con queso, lechuga y tomate en pan artesanal.</p>
+        <img src="https://via.placeholder.com/300" alt="Espinacas">
+        <h2>Espinacas a la Crema</h2>
+        <p>Deliciosas espinacas cocinadas con nata y un toque de nuez moscada.</p>
     </div>
-
-    <div class="panel">
-        <img src="https://via.placeholder.com/300" alt="Paella">
-        <h2>Paella Española</h2>
-        <p>Un plato tradicional de arroz con mariscos y un toque de azafrán.</p>
-    </div>
-
-    <div class="opinion">
-        <h2>Opinión del Cliente</h2>
-        <p>"Me encantaron las recomendaciones, cada plato tenía un sabor increíble y una presentación impecable. ¡Volveré a probar más!"</p>
+    
+    <div class="opiniones">
+        <h2>Opiniones de los Clientes</h2>
+        <textarea placeholder="Escribe tu opinión sobre nuestras recomendaciones..."></textarea><br>
+        <button>Enviar Opinión</button>
     </div>
 </body>
 </html>
