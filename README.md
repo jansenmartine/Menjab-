@@ -1,11 +1,11 @@
 # Menjabo
 Pàgina dedicada a recomenar menjar de qualitat
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recomendaciones de Comida</title>
+    <title>Recomanacions de Menjar</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -37,15 +37,15 @@ Pàgina dedicada a recomenar menjar de qualitat
             font-size: 16px;
             color: #555;
         }
-        .opiniones {
+        .opinions {
             width: 100%;
             margin-top: 30px;
             text-align: center;
         }
-        .opiniones h2 {
+        .opinions h2 {
             font-size: 24px;
         }
-        .opiniones textarea {
+        .opinions textarea {
             width: 80%;
             height: 100px;
             margin: 10px 0;
@@ -53,7 +53,7 @@ Pàgina dedicada a recomenar menjar de qualitat
             border-radius: 5px;
             border: 1px solid #ccc;
         }
-        .opiniones button {
+        .opinions button {
             padding: 10px 20px;
             border: none;
             background-color: #28a745;
@@ -68,39 +68,38 @@ Pàgina dedicada a recomenar menjar de qualitat
     <div class="panel">
         <img src="https://via.placeholder.com/300" alt="Pizza">
         <h2>Pizza Italiana</h2>
-        <p>Disfruta de una auténtica pizza napolitana con mozzarella y albahaca.</p>
+        <p>Gaudeix d'una autèntica pizza napolitana amb mozzarella i alfàbrega.</p>
     </div>
     
     <div class="panel">
         <img src="https://via.placeholder.com/300" alt="Tacos">
-        <h2>Tacos Mexicanos</h2>
-        <p>Prueba estos deliciosos tacos al pastor con piña y cebolla.</p>
+        <h2>Tacs Mexicans</h2>
+        <p>Prova aquests deliciosos tacs al pastor amb pinya i ceba.</p>
     </div>
     
     <div class="panel">
-        <img src="https://via.placeholder.com/300" alt="Albóndigas">
-        <h2>Albóndigas Caseras</h2>
-        <p>Albóndigas en salsa de tomate, perfectas para acompañar con arroz o pasta.</p>
+        <img src="https://via.placeholder.com/300" alt="Mandonguilles">
+        <h2>Mandonguilles Casolanes</h2>
+        <p>Mandonguilles amb salsa de tomàquet, perfectes per acompanyar amb arròs o pasta.</p>
     </div>
     
     <div class="panel">
-        <img src="https://via.placeholder.com/300" alt="Macarrones">
-        <h2>Macarrones con Queso</h2>
-        <p>Un plato clásico con una cremosa salsa de queso cheddar.</p>
+        <img src="https://via.placeholder.com/300" alt="Macarrons">
+        <h2>Macarrons amb Formatge</h2>
+        <p>Un plat clàssic amb una cremosa salsa de formatge cheddar.</p>
     </div>
     
     <div class="panel">
-        <img src="https://via.placeholder.com/300" alt="Espinacas">
-        <h2>Espinacas a la Crema</h2>
-        <p>Deliciosas espinacas cocinadas con nata y un toque de nuez moscada.</p>
+        <img src="https://via.placeholder.com/300" alt="Espinacs">
+        <h2>Espinacs a la Crema</h2>
+        <p>Deliciosos espinacs cuinats amb nata i un toc de nou moscada.</p>
     </div>
     
-    <div class="opiniones">
-        <h2>Opiniones de los Clientes</h2>
-        <textarea placeholder="Escribe tu opinión sobre nuestras recomendaciones..."></textarea><br>
-        <button>Enviar Opinión</button>
+    <div class="opinions">
+        <h2>Opinions dels Clients</h2>
+        <textarea placeholder="Escriu la teva opinió sobre les nostres recomanacions..."></textarea><br>
+        <button>Enviar Opinió</button>
     </div>
 </body>
 </html>
-
 
