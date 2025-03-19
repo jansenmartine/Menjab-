@@ -74,7 +74,7 @@ Pàgina dedicada a recomenar menjar de qualitat
     <div class="panel">
         <img src="https://via.placeholder.com/300" alt="Tacos">
         <h2>Tacs Mexicans</h2>
-        <p>Prova aquests deliciosos tacs al pastor amb pinya i ceba.</p>
+        <p>Prova aquests deliciosos tacos al pastor amb pinya i ceba.</p>
     </div>
     
     <div class="panel">
@@ -98,7 +98,7 @@ Pàgina dedicada a recomenar menjar de qualitat
     <div class="opinions">
         <h2>Opinions dels Clients</h2>
         <textarea placeholder="Escriu la teva opinió sobre les nostres recomanacions..."></textarea><br>
-        <button>Enviar Opinió</button>
+        <button>Enviar Opinió</button>   
     </div>
 </body>
 </html>
