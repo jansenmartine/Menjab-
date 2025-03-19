@@ -1,4 +1,4 @@
-# Menjab-
+# Menjabo
 Pàgina dedicada a recomenar menjar de qualitat
 <!DOCTYPE html>
 <html lang="es">
